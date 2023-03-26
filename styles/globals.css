@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+}
+  
+.container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.svg-main{
+    width: 100vw;
+    height: 100vh;
+}
+
+.tr-origin-bottom{
+    transform-origin: 0% 100%;
+}
+button{
+    position: fixed;
+    right: 16px;
+    top: 16px;
+    background: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
