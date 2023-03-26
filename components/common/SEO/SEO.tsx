@@ -33,6 +33,7 @@ export default function Head({ title, slug, image, desc }: HeadProps) {
       <meta name="twitter:creator" content={siteMeta.twitter}></meta>
       {/* --- Meta End ---*/}
       <link rel="icon" href="/favicon.ico" />
+      <link rel="canonical" href={`${siteMeta.url}${slug}`} />
     </NextHead>
   );
 }

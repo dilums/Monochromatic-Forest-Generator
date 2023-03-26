@@ -23,11 +23,19 @@ export default function Index() {
   }, []);
 
   if (!isClient) {
-    return null;
+    return (
+      <SEO
+        title="Monochromatic Forest Magic - Unique SVG Landscape Generator with Next.js and React"
+        slug=""
+      />
+    );
   }
   return (
     <>
-      <SEO title="Landscape Generator | Home" slug="/" />
+      <SEO
+        title="Monochromatic Forest Magic - Unique SVG Landscape Generator with Next.js and React"
+        slug=""
+      />
       <RefreshButton onClick={onClick} pallette={pallette} />
       <Main key={key} pallette={pallette} />
     </>
