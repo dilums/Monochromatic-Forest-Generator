@@ -10,6 +10,8 @@ Monochromatic forest landscape generator built with React and Next.js, generatin
 * SVG format for easy scalability and editing
 * Built with React and Next.js for a seamless user experience
 
+## Demo 🖥️
+Visit the live demo at [https://monochromatic-forest-generator.netlify.app](https://monochromatic-forest-generator.netlify.app) to see the Monochromatic Forest Generator in action!
 
 ## Getting Started 🚀 
   
@@ -27,9 +29,9 @@ git clone https://github.com/dilums/Monochromatic-Forest-Generator.git
 ```sh
 cd Monochromatic-Forest-Generator
 ```
-3. Install the required dependencies:
+3. Install the required dependencies:       
 `yarn` if you are using **yarn** or `npm install` for **npm**
-4. Start the development server:
+4. Start the development server:     
 `yarn dev` if you are using **yarn** or `npm run dev` for **npm**
 5. Visit http://localhost:3000 in your browser to view the project.  
  
